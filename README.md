@@ -1,4 +1,4 @@
-## docker-obvnc
+## docker-openbox-novnc
 
 This is a minimal Docker installation with:
 - Openbox on Ubuntu Server 16.04
