@@ -20,6 +20,6 @@ docker build -t naei/openbox-novnc .
 ```
 docker run -id -p 6080:6080 -e VNC_PASSWD=<YourPassword> naei/openbox-novnc
 ```  
-The `-e VNC_PASSWD=<YourPassword>` parameter is optionnal. If not set, the VNC session will be accessible by everyone.
+The `-e VNC_PASSWD=<YourPassword>` parameter is optional. If not set, the VNC session will be accessible by everyone.
 
 The system is accessible from: https://<YOUR_SERVER_IP>:6080
