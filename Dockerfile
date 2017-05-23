@@ -29,7 +29,7 @@ CMD \
 # VNC Server
   if [ -z $VNC_PASSWD ]; then \
     # no password
-    x11vnc -display :1 -xkb -forever; \
+    x11vnc -display :1 -xkb -forever & \
   else \
     # set password from VNC_PASSWD env variable
     mkdir ~/.x11vnc && \
